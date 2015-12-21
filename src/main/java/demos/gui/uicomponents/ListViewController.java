@@ -17,7 +17,6 @@ import com.jfoenix.controls.JFXListView;
 @FXMLController(value = "/resources/fxml/ui/ListView.fxml" , title = "Material Design Example")
 public class ListViewController {
 
-	
 	@FXMLViewFlowContext
 	private ViewFlowContext context;
 
@@ -47,7 +46,4 @@ public class ListViewController {
 		collapse.setOnMouseClicked((e)->list2.expandedProperty().set(false));
 		list1.depthProperty().set(1);
 	}
-	
-	
-	
 }

@@ -21,5 +21,4 @@ public class ButtonController {
 		if(((Pane) context.getRegisteredObject("ContentPane")).getChildren().size() > 0)
 			Platform.runLater(()-> ((Pane)((Pane) context.getRegisteredObject("ContentPane")).getChildren().get(0)).getChildren().remove(1));
 	}
-
 }
